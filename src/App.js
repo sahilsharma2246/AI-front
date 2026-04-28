@@ -6,6 +6,8 @@ import "./App.css";
 function App() {
   const [result, setResult] = useState(null);
 
+  //app
+
   return (
     <div className="app">
       <h1>AI Resume Analyzer</h1>
