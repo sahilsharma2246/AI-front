@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>AI Resume-Analyzer</h1>
+      <h1>AI Resume Analyzer</h1>
       <Upload setResult={setResult} />
       {result && <Result data={result} />}
     </div>
